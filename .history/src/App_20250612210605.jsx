@@ -131,6 +131,14 @@ function Experience() {
 function Projects() {
   const projectsData = [
     {
+      title: 'FLAMES Code - Ultimate Relationship Calculator',
+      description: 'A stunning, interactive FLAMES relationship calculator with 5 beautiful themes, particle effects, confetti celebrations, and advanced animations built with React.',
+      image: 'https://via.placeholder.com/400x250/ff6b6b/ffffff?text=FLAMES+Code',
+      liveLink: 'https://flames-code.netlify.app/',
+      githubLink: 'https://github.com/RagulBalajee/Flames-code',
+      status: 'Completed'
+    },
+    {
       title: 'Tic Tac Toe',
       description: 'A classic Tic Tac Toe game with single player and two player modes, built with HTML, CSS, and JavaScript.',
       image: 'https://via.placeholder.com/400x250/38bdf8/ffffff?text=Tic+Tac+Toe',
@@ -176,14 +184,6 @@ function Projects() {
       image: 'https://via.placeholder.com/400x250/ef4444/ffffff?text=AI+Article+Generator',
       liveLink: '#',
       githubLink: 'https://github.com/RagulBalajee/AI-Article-Generator',
-      status: 'Completed'
-    },
-    {
-      title: 'FLAMES Code - Ultimate Relationship Calculator',
-      description: 'A stunning, interactive FLAMES relationship calculator with 5 beautiful themes, particle effects, confetti celebrations, and advanced animations built with React.',
-      image: 'https://via.placeholder.com/400x250/ff6b6b/ffffff?text=FLAMES+Code',
-      liveLink: 'https://flames-code.netlify.app/',
-      githubLink: 'https://github.com/RagulBalajee/Flames-code',
       status: 'Completed'
     },
     {
