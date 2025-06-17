@@ -150,9 +150,9 @@ function Projects() {
       title: 'AI-Driven Ship Fuel & Route Optimization',
       description: 'An advanced AI system for optimizing ship routes and fuel consumption using machine learning algorithms.',
       image: 'https://via.placeholder.com/400x250/f97316/ffffff?text=AI+Ship+Optimization',
-      liveLink: '#',
-      githubLink: '#',
-      status: 'In Progress'
+      liveLink: 'https://leafy-pavlova-e9f24d.netlify.app/',
+      githubLink: 'https://github.com/RagulBalajee/Ship-Fuel-Optimization',
+      status: 'Completed'
     },
     {
       title: 'AI-Powered Content Moderation System',
