@@ -387,8 +387,6 @@ function Blogs() {
     { title: 'University Course Certificate', pdf: '/uni.pdf', thumbnail: '/uni.jpg' },
     { title: 'Android Development Fundamentals', pdf: '/andi.pdf', thumbnail: '/andi.jpg' },
     { title: 'Google Analytics Certification', pdf: '/google.pdf', thumbnail: '/google.jpg' },
-    { title: 'AWS Certificate', pdf: null, thumbnail: '/AWS Certified Solutions.jpg' },
-    { title: 'AWS Certificate 1', pdf: null, thumbnail: '/AWS Certified Developer.jpg' },
   ];
 
   const openModal = (blog) => {

@@ -167,9 +167,9 @@ function Projects() {
       title: 'AI-Powered Content Moderation System',
       description: 'An intelligent content moderation system using AI APIs to automatically filter and moderate user-generated content.',
       image: 'https://via.placeholder.com/400x250/10b981/ffffff?text=AI+Content+Moderation',
-      liveLink: 'https://marvelous-malabi-b90125.netlify.app/',
-      githubLink: 'https://github.com/RagulBalajee/aicontentmod',
-      status: 'Completed'
+      liveLink: '#',
+      githubLink: '#',
+      status: 'In Progress'
     },
     {
       title: 'Random Quote Generator',
@@ -201,22 +201,6 @@ function Projects() {
       image: 'https://via.placeholder.com/400x250/06b6d4/ffffff?text=Marriage+Hall+Booking',
       liveLink: 'https://www.linkedin.com/feed/update/urn:li:activity:7337368367760125952/?originTrackingId=dXq1Kq0SRoSCi0%2Bhsi%2BD%2Bw%3D%3D',
       githubLink: '#',
-      status: 'Completed'
-    },
-    {
-      title: 'AI-Powered Retail Demand Forecasting System',
-      description: 'A comprehensive machine learning-powered web application for retail demand forecasting, inventory optimization, and business intelligence.',
-      image: 'https://via.placeholder.com/400x250/6366f1/ffffff?text=Retail+Demand+Forecasting',
-      liveLink: 'https://demand-forecasting-00.streamlit.app/',
-      githubLink: 'https://github.com/RagulBalajee/Demand-Forecasting',
-      status: 'Completed'
-    },
-    {
-      title: 'AICricketCoach',
-      description: 'An AI-powered cricket coaching assistant that provides insights, recommendations, and analytics for players and coaches.',
-      image: 'https://via.placeholder.com/400x250/ef4444/ffffff?text=AI+Cricket+Coach',
-      liveLink: 'https://ai-cricoach-devinoh.streamlit.app/',
-      githubLink: 'https://github.com/RagulBalajee/AI-CriCoach',
       status: 'Completed'
     },
   ];
@@ -387,8 +371,6 @@ function Blogs() {
     { title: 'University Course Certificate', pdf: '/uni.pdf', thumbnail: '/uni.jpg' },
     { title: 'Android Development Fundamentals', pdf: '/andi.pdf', thumbnail: '/andi.jpg' },
     { title: 'Google Analytics Certification', pdf: '/google.pdf', thumbnail: '/google.jpg' },
-    { title: 'AWS Certificate', pdf: null, thumbnail: '/AWS Certified Solutions.jpg' },
-    { title: 'AWS Certificate 1', pdf: null, thumbnail: '/AWS Certified Developer.jpg' },
   ];
 
   const openModal = (blog) => {

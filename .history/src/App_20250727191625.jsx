@@ -92,45 +92,19 @@ function About() {
 function Experience() {
   return (
     <section id="experience" className="page">
-      <div className="page-content-wrapper experience-page-wrapper">
+      <div className="page-content-wrapper">
         <h2 className="page-title">Experience</h2>
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
-          <div className="experience-content">
-            <div className="experience-item experience-horizontal">
+        <div className="experience-content">
+          <div className="experience-item">
+            <div className="experience-header">
               <img src="/retech.jpg" alt="Retech Solutions" className="company-icon" />
-              <div className="experience-title-group">
+              <div className="experience-title">
                 <h3>Retech Solutions</h3>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginTop: '0.5rem' }}>
-                  <span className="experience-role">AI & ML Developer Intern</span>
-                  <span className="project-status status-completed">Completed</span>
-                  <span className="experience-duration">2024</span>
-                </div>
-              </div>
-            </div>
-            <div className="experience-item experience-horizontal">
-              <img src="/nsic.jpeg" alt="NSIC" className="company-icon" />
-              <div className="experience-title-group">
-                <h3>NSIC</h3>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginTop: '0.5rem' }}>
-                  <span className="experience-role">FullStack Internship</span>
-                  <span className="project-status status-completed">Completed</span>
-                  <span className="experience-duration">2025</span>
-                </div>
-              </div>
-            </div>
-            <div className="experience-item experience-horizontal">
-              <img src="/block_solution_labs.jpeg" alt="BlockSolutionLab" className="company-icon" />
-              <div className="experience-title-group">
-                <h3>BlockSolutionLab</h3>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginTop: '0.5rem' }}>
-                  <span className="experience-role">Frontend Internship</span>
-                  <span className="project-status status-progress">Ongoing</span>
-                  <span className="experience-duration">2025</span>
-                </div>
+                <p className="experience-role">AI & ML Developer Intern<span style={{ color: 'green', marginLeft: '8px' }}>.....completed.....</span></p>
+                <p className="experience-duration">2024</p>
               </div>
             </div>
           </div>
-          <img src="/experience.jpeg" alt="Experience Visual" className="experience-side-image" />
         </div>
       </div>
     </section>
@@ -167,9 +141,9 @@ function Projects() {
       title: 'AI-Powered Content Moderation System',
       description: 'An intelligent content moderation system using AI APIs to automatically filter and moderate user-generated content.',
       image: 'https://via.placeholder.com/400x250/10b981/ffffff?text=AI+Content+Moderation',
-      liveLink: 'https://marvelous-malabi-b90125.netlify.app/',
-      githubLink: 'https://github.com/RagulBalajee/aicontentmod',
-      status: 'Completed'
+      liveLink: '#',
+      githubLink: '#',
+      status: 'In Progress'
     },
     {
       title: 'Random Quote Generator',
@@ -201,22 +175,6 @@ function Projects() {
       image: 'https://via.placeholder.com/400x250/06b6d4/ffffff?text=Marriage+Hall+Booking',
       liveLink: 'https://www.linkedin.com/feed/update/urn:li:activity:7337368367760125952/?originTrackingId=dXq1Kq0SRoSCi0%2Bhsi%2BD%2Bw%3D%3D',
       githubLink: '#',
-      status: 'Completed'
-    },
-    {
-      title: 'AI-Powered Retail Demand Forecasting System',
-      description: 'A comprehensive machine learning-powered web application for retail demand forecasting, inventory optimization, and business intelligence.',
-      image: 'https://via.placeholder.com/400x250/6366f1/ffffff?text=Retail+Demand+Forecasting',
-      liveLink: 'https://demand-forecasting-00.streamlit.app/',
-      githubLink: 'https://github.com/RagulBalajee/Demand-Forecasting',
-      status: 'Completed'
-    },
-    {
-      title: 'AICricketCoach',
-      description: 'An AI-powered cricket coaching assistant that provides insights, recommendations, and analytics for players and coaches.',
-      image: 'https://via.placeholder.com/400x250/ef4444/ffffff?text=AI+Cricket+Coach',
-      liveLink: 'https://ai-cricoach-devinoh.streamlit.app/',
-      githubLink: 'https://github.com/RagulBalajee/AI-CriCoach',
       status: 'Completed'
     },
   ];
@@ -387,8 +345,6 @@ function Blogs() {
     { title: 'University Course Certificate', pdf: '/uni.pdf', thumbnail: '/uni.jpg' },
     { title: 'Android Development Fundamentals', pdf: '/andi.pdf', thumbnail: '/andi.jpg' },
     { title: 'Google Analytics Certification', pdf: '/google.pdf', thumbnail: '/google.jpg' },
-    { title: 'AWS Certificate', pdf: null, thumbnail: '/AWS Certified Solutions.jpg' },
-    { title: 'AWS Certificate 1', pdf: null, thumbnail: '/AWS Certified Developer.jpg' },
   ];
 
   const openModal = (blog) => {

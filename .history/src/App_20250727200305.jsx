@@ -211,14 +211,6 @@ function Projects() {
       githubLink: 'https://github.com/RagulBalajee/Demand-Forecasting',
       status: 'Completed'
     },
-    {
-      title: 'AICricketCoach',
-      description: 'An AI-powered cricket coaching assistant that provides insights, recommendations, and analytics for players and coaches.',
-      image: 'https://via.placeholder.com/400x250/ef4444/ffffff?text=AI+Cricket+Coach',
-      liveLink: 'https://ai-cricoach-devinoh.streamlit.app/',
-      githubLink: 'https://github.com/RagulBalajee/AI-CriCoach',
-      status: 'Completed'
-    },
   ];
 
   return (
@@ -387,8 +379,6 @@ function Blogs() {
     { title: 'University Course Certificate', pdf: '/uni.pdf', thumbnail: '/uni.jpg' },
     { title: 'Android Development Fundamentals', pdf: '/andi.pdf', thumbnail: '/andi.jpg' },
     { title: 'Google Analytics Certification', pdf: '/google.pdf', thumbnail: '/google.jpg' },
-    { title: 'AWS Certificate', pdf: null, thumbnail: '/AWS Certified Solutions.jpg' },
-    { title: 'AWS Certificate 1', pdf: null, thumbnail: '/AWS Certified Developer.jpg' },
   ];
 
   const openModal = (blog) => {

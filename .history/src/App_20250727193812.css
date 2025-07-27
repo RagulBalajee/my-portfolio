@@ -550,9 +550,9 @@ body.dark-mode .experience-item:hover {
 .experience-horizontal .company-icon {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  border-radius: 16px;
   object-fit: cover;
-  border: 8px solid var(--card-background);
+  border: 2px solid var(--primary-color);
   background: #fff;
 }
 
